@@ -1,0 +1,30 @@
+
+body{
+    background-color: rgb(185, 180, 180);
+}
+
+#container{
+    width: 960px;
+    height: 960px;
+    margin: 20px auto ;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+#button1{
+    margin: 30px auto;
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border: blueviolet solid;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow:  0px 10px 15px rgb(38, 14, 72) ;
+}
+
+.contain{
+    display: flex;
+}
